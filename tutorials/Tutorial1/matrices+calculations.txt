@@ -1,0 +1,62 @@
+% Datei Matrizen+Rechnen.txt
+% Geben Sie die Anweisungen Zeile fuer Zeile
+% an der MATLAB-Eingabeaufforderung >> ein:
+
+format short
+x = [1, 2, 3]
+x
+x'
+y = [1.1; 2.2; 3.3]
+y
+length(y)
+y'
+x + y    % ist Fehler
+x = x'
+x + y
+2*x - y
+x*y      % ist Fehler
+x'*y
+x*y'
+x .* y
+y ./ x
+
+1:10
+0:0.1:1
+5:-2:-4
+v = 1:10
+v .^ 2
+w = 1 ./ v
+
+A = [1, 4, 2; 3, 7, -1; 1, 1, pi]
+A'
+B = rand(3,3)
+zeros(2,3)
+ones(3,2)
+eye(3)
+[A, B]
+[A; B]
+A + B
+A - B
+A * B
+A .* B
+A * x
+A^2
+A.^2
+sin(A)
+
+A
+A(1,1)
+A(3,2)
+A(1,:)
+A(:,3)
+A(1:2, 2:3)
+A(1,2) = -A(2,1)
+A
+A(1:2, 1:2) = zeros(2,2)
+A
+diag(A)
+diag([1, 2, 3])
+
+B
+inv(B)
+det(B)
